@@ -1,0 +1,61 @@
+.calendar-container {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+td:hover {
+    background-color: #f0f0f0;
+}
+.today {
+    background-color: #ffeb3b;
+    font-weight: bold;
+    border-radius: 50%;
+}
+/* Màu cho ngày được chọn */
+.selected {
+    background-color: #2196F3 !important;
+    color: white;
+    border-radius: 50%;
+}
+
+.event-display {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.container {
+    display: flex;          /* Kích hoạt chế độ nằm ngang */
+    align-items: flex-start; /* Căn lề các phần tử ở đỉnh đầu */
+    gap: 20px;              /* Khoảng cách giữa lịch và bảng */
+    padding: 20px;
+}
+
+.calendar-box {
+    flex: 0 0 300px;        /* Cố định chiều rộng lịch (ví dụ 300px) */
+}
+
+.table-box {
+    flex: 1;                /* Bảng sẽ tự giãn hết phần không gian còn lại */
+}
+
+table {
+    width: 100%;            /* Đảm bảo bảng luôn rộng hết phần bên phải */
+    border-collapse: collapse;
+}

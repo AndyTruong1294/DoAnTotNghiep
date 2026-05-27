@@ -1,0 +1,19 @@
+.container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50vw ;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+body {
+  
+  background-size: cover;      /* Phủ kín toàn bộ màn hình */
+  background-position: center; /* Căn giữa ảnh */
+  background-repeat: no-repeat;/* Không lặp lại ảnh */
+  background-attachment: fixed;/* Giữ nền đứng yên khi cuộn trang (tạo hiệu ứng xịn hơn) */
+}
